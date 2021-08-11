@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 70px;
+  transform: translate 4s;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.nav > img {
+  object-fit: contain;
+}
+
+.img-net {
+  position: fixed;
+  left: 20px;
+  width: 100px;
+}
+
+.img-avt {
+  position: fixed;
+  right: 20px;
+  width: 35px;
+}
+
+.is-scrolled {
+  background-color: black;
+  transition: background-color 0.3s ease;
+}
